@@ -1,0 +1,63 @@
+html
+  height: 100%
+  -webkit-text-size-adjust: 100%
+  -ms-text-size-adjust: 100%
+body
+  height: 100%
+  color: $color-font
+  font: 14px/1.43 'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans GB', 'Microsoft Yahei', 'Apple Color Emoji', 'Segoe UI Emoji', 'NotoColorEmoji', 'Segoe UI Symbol', 'Android Emoji', 'EmojiSymbols', sans-serif
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section
+  margin: 0
+  padding: 0
+
+li
+  list-style-type: none
+
+// 更改盒子模型
+*
+  box-sizing: border-box
+
+// hover
+*, *:hover, *:focus
+  -webkit-overflow-scrolling: touch
+  outline: 0
+
+// 去掉ios android
+textarea, input, button
+  resize: none
+  border-radius: 0
+  border: 0
+  font-size: 100%
+  -webkit-appearance:none
+
+button
+  line-height: 1
+  user-select: none
+  background-color: #fff
+
+select
+  -webkit-appearance: none
+  border: none
+  background: none
+  font-size: 100%
+
+input
+  font-size: 100%
+
+a
+  text-decoration: none
+  color: $color-font
+
+i
+  font-style: normal
+
+// img样式初始化
+img
+  display: inline-block
+  vertical-align: bottom
+  max-width: 100%
+
+// iframe样式初始化
+iframe
+  display: none
