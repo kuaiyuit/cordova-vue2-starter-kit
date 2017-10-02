@@ -28,3 +28,4 @@ $ cordova run ios
 ## Thanks
 
 @dotneet
+@Wellaiyo
