@@ -2,7 +2,7 @@
 npm-debug.log
 
 node_modules/
-www/
+www/*
 dist/
 platforms/
 plugins/
